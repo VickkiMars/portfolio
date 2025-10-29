@@ -8,11 +8,13 @@
   2. Import the Tailwind CSS directives.
 */
 @import "tailwindcss";
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 /*
   3. Define your custom font using the new @theme at-rule.
      This must be placed AFTER the @import "tailwindcss" line.
 */
 @theme {
-  --font-inconsolata: "Inconsolata", monospace;
+  --font-caveat: "Caveat", monospace;
 }
